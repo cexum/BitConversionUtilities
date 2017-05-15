@@ -1,0 +1,6 @@
+C:\Project\FreeLance\20170401\TSDBAP32DevApp\DynamicLinkerProof\DynamicLinkerProof\obj\Debug\DynamicLinkerProof.csprojResolveAssemblyReference.cache
+C:\Project\FreeLance\20170401\TSDBAP32DevApp\DynamicLinkerProof\DynamicLinkerProof\bin\Debug\DynamicLinkerProof.exe.config
+C:\Project\FreeLance\20170401\TSDBAP32DevApp\DynamicLinkerProof\DynamicLinkerProof\bin\Debug\DynamicLinkerProof.exe
+C:\Project\FreeLance\20170401\TSDBAP32DevApp\DynamicLinkerProof\DynamicLinkerProof\bin\Debug\DynamicLinkerProof.pdb
+C:\Project\FreeLance\20170401\TSDBAP32DevApp\DynamicLinkerProof\DynamicLinkerProof\obj\Debug\DynamicLinkerProof.exe
+C:\Project\FreeLance\20170401\TSDBAP32DevApp\DynamicLinkerProof\DynamicLinkerProof\obj\Debug\DynamicLinkerProof.pdb
