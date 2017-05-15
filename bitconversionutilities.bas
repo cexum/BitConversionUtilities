@@ -1,7 +1,7 @@
                /'
 Date: 2017.03.20
 Author: Charles DeGrapharee Exum
-Purpose: To create an unmanaged .dll which obfuscates essential logic for communication with the 8453 diode array.
+Purpose: To create an unmanaged .dll which casts bytes.
 '/' 
 
 #include "crt/math.bi"
