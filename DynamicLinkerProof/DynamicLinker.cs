@@ -8,13 +8,7 @@ namespace DynamicLinkerProof
     public static unsafe class DynamicLinker
     {
         [DllImport("BitConversionUtilities.dll")]
-        public static extern int Increment(int x);
-
-        [DllImport("BitConversionUtilities.dll", CallingConvention = CallingConvention.StdCall)]
-        public static extern void ProcessRawData(int size, ref byte[] data);
-
-        [DllImport("BitConversionUtilities.dll", CallingConvention = CallingConvention.StdCall)]
-        public static extern void IncrementArray(ref byte[] data, Int32 l);
+        public static extern int Increment(int x);         
 
         [DllImport("BitConversionUtilities.dll", CallingConvention = CallingConvention.StdCall)]
         public unsafe static extern void CopyArray(byte* s, byte* d, Int32 l);
@@ -23,9 +17,6 @@ namespace DynamicLinkerProof
         public unsafe static extern void ReturnULongArray(byte* s, UInt32* d, UInt32 l);
 
         [DllImport("BitConversionUtilities.dll", CallingConvention = CallingConvention.StdCall)]
-        public unsafe static extern void ReturnDoubleArray(byte* s, double* d, UInt32 l);
-
-        [DllImport("BitConversionUtilities.dll", CallingConvention = CallingConvention.StdCall)]
-        public unsafe static extern void ProcessAbsorbanceValues(byte* s, double* d, UInt32 l);
+        public unsafe static extern void ReturnDoubleArray(byte* s, double* d, UInt32 l); 
     }
 }
